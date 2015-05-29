@@ -75,7 +75,7 @@ class Stats {
 		}
 		#end
 		#if (openfl && !flash && !html5)
-		version+="/" + Lib.packageName + "." + Lib.version;
+		version+="/" + Lib.application.config.packageName + "." + Lib.application.config.version;
 		#end
 
 		#if ios
